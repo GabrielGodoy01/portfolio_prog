@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5aaa898-5599-4d86-9cfd-a5a59dd4460a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritmos I.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritmos I/META-INF/Algoritmos I.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritmos I/br/com/alura/algoritmos/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/algoritmos/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/algoritmos/maisCaro.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produtos/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produtos/src/br/com/alura/algoritmos/TestaOrdenacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../produtos/src/br/com/alura/algoritmos/TestaOrdenacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
