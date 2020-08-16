@@ -58,10 +58,10 @@ public class Conta {
     }
 
     public Cliente getTitular() {
-        return titular;
+        return this.titular;
     }
 
     public static int getTotal() {
-        return total;
+        return Conta.total;
     }
 }
