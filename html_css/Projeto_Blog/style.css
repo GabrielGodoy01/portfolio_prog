@@ -2,8 +2,13 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
+main{
+	padding: 30px 200px;
+	background: linear-gradient(white, rgb(71, 71, 71));
+}
+
 header{
-	background: #BBBBBB;
+	background: rgb(48, 48, 48);
 	padding: 20px 0;
 }
 
@@ -11,6 +16,11 @@ header{
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
+}
+
+.imagem-header{
+	width: 300px;
+	height: 200px;
 }
 
 nav{
@@ -26,7 +36,7 @@ nav li{
 
 nav a{
 	text-transform: uppercase;
-	color: #000000;
+	color: white;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
@@ -189,7 +199,6 @@ td, th{
 
 .mapa{
 	padding: 3em 0;
-	background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa-conteudo{
@@ -199,7 +208,6 @@ td, th{
 
 .beneficios{
 	padding: 3em 0;
-	background: #888888
 }
 
 .conteudo-beneficios {
