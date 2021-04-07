@@ -1,16 +1,20 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body{
 	font-family: 'Montserrat', sans-serif;
 	height: auto;
 }
 
 main{
-	padding: 30px;
-	background: linear-gradient(white, rgb(71, 71, 71));
-	
+	padding: 20px 50px;
+	background: linear-gradient(rgb(206, 204, 204), rgb(71, 71, 71));
 }
 
 header{
-	background: rgb(48, 48, 48);
+	background: rgb(99, 97, 97);
 	padding: 20px 0;
 }
 
@@ -22,7 +26,7 @@ header{
 
 .imagem-header{
 	width: 300px;
-	height: 200px;
+	height: 275px;
 }
 
 nav{
@@ -57,11 +61,6 @@ form label, form legend {
 	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
-}
-
-/* css da pagina inicial */
-.banner{
-	width: 100%
 }
 
 .titulo-principal {
@@ -102,21 +101,37 @@ form label, form legend {
 	display: block;
 }
 
-.beneficios{
+.habilidades{
 	padding: 3em 0;
 }
 
-.conteudo-beneficios {
-	width: 640px;
-	margin: 0 auto;
+.conteudo-habilidades {
+	width: 720px;
+	margin: auto;
+	padding: 0px 0px 0px 250px;
 }
 
-.lista-beneficios{
-	width: 100%;
+.lista-habilidades{
+	width: 40%;
 	display: inline-block;
 	vertical-align: top;
 	padding-bottom: 20px;
+	text-align: left;
+}
+
+.lista-contatos{
+	width: 100%;
+	display: block;
+	padding-bottom: 20px;
 	text-align: center;
+}
+
+.imagem-habilidades {
+	position: relative;
+	width: 26%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px #000000;
 }
 
 .primeiro-icone, .icones{
@@ -130,6 +145,7 @@ form label, form legend {
 
 .listas-icones, .listas-icones-sites{
 	padding-left: 10px;
+	vertical-align: 7px;
 }
 
 ul a{
@@ -143,21 +159,51 @@ ul a.listas-icones-sites:hover{
 	text-decoration: underline;
 }
 
-.itens{
+.itens-linguagens, .itens-idiomas, .itens-ide, .itens-geral{
+	padding: 3px 0px 4px 50px;
 	line-height: 1.5;
 }
 
-.itens:first-child{
+.itens-linguagens:first-child, .itens-idiomas:first-child, .itens-ide:first-child, .itens-geral:first-child{
+	padding: 0px;
 	font-weight: bold;
 }
 
-.itens:before {
-	content: "🟊";
+.itens-linguagens:first-child:before{
+	content:"📓"
+}
+
+.itens-linguagens:before {
+	padding-right: 5px;
+	content: "🖥️";
+}
+
+.itens-idiomas:first-child:before{
+	content:"🌐"
+}
+
+.itens-idiomas:before {
+	padding-right: 5px;
+	content: "🗣️";
+}
+
+.itens-ide:first-child:before{
+	content:"📝"
+}
+
+.itens-ide:before {
+	padding-right: 5px;
+	content: "💡";
+}
+
+.itens-geral:first-child:before{
+	padding-right: 5px;
+	content:"🔗"
 }
 
 footer {
 	text-align: center;
-	background: url("bg.jpg");
+	background: linear-gradient(rgb(71, 71, 71), black);
 	padding: 50px 0px;
 }
 
