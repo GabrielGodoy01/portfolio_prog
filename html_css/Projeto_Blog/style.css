@@ -65,20 +65,23 @@ form label, form legend {
 
 .titulo-principal {
 	text-align: center;
-	font-size: 2em;
+	font-size: 35px;
 	margin: 0.5em 0 1em;
 	clear: left;
 }
 
 .principaL {
 	padding: 3em 0;
-	background: #FEFEFE;
 	width: 940px;
 	margin: 0 auto;
+
 }
 
 .principal p{
-	margin: 0 0 1em;
+	margin: 0 0em 1em;
+	padding-left: 20px;
+	border-left: 10px solid black;
+	margin: 0px 110px; 
 }
 
 .principal strong {
@@ -102,7 +105,7 @@ form label, form legend {
 }
 
 .habilidades{
-	padding: 3em 0;
+	padding: 1em 0;
 }
 
 .conteudo-habilidades {
