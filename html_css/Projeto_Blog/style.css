@@ -1,226 +1,202 @@
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
-body{
-	font-family: 'Montserrat', sans-serif;
-	height: auto;
+main {
+  padding: 20px 0px;
+  background: linear-gradient(rgb(206, 204, 204), rgb(143, 143, 143));
 }
 
-main{
-	padding: 20px 50px;
-	background: linear-gradient(rgb(206, 204, 204), rgb(71, 71, 71));
+header {
+  width: auto;
+  background: rgb(99, 97, 97);
+  padding: 20px 0;
 }
 
-header{
-	background: rgb(99, 97, 97);
-	padding: 20px 0;
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
 }
 
-.caixa{
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
+.imagem-header {
+  width: 300px;
+  opacity: 1;
+  box-shadow: 10px 10px 10px #000000;
 }
 
-.imagem-header{
-	width: 300px;
-	height: 275px;
+.imagem-header-contatos {
+  width: 275px;
+  height: 250px;
 }
 
-nav{
-	position: absolute;
-	top: 110px;
-	right: 0;
+nav {
+  position: flex;
+  top: 110px;
+  right: 0;
 }
 
-nav li{
-	display: inline;
-	margin: 0 0 0 15px;
+nav li {
+  display: inline-block;
 }
 
-nav a{
-	text-transform: uppercase;
-	color: white;
-	font-weight: bold;
-	font-size: 22px;
-	text-decoration: none;
+nav a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
 }
 
-nav a:hover{
-	color: #C78C19;
-	text-decoration: underline;
-}
-
-form{
-	margin: 40px 0;
-}
-
-form label, form legend {
-	display: block;
-	font-size: 20px;
-	margin: 0 0 10px;
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
 }
 
 .titulo-principal {
-	text-align: center;
-	font-size: 35px;
-	margin: 0.5em 0 1em;
-	clear: left;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 35px;
+  margin: 0.5em 0 1em;
+  clear: left;
 }
 
 .principaL {
-	padding: 3em 0;
-	width: 940px;
-	margin: 0 auto;
+  padding: 3em 0;
+  width: auto;
+  margin: 0 auto;
 }
 
-.principal p{
-	margin: 0 0em 1em;
-	padding-left: 20px;
-	border-left: 10px solid black;
-	margin: 0px 110px;
+.principal p {
+  margin: 0 0em 1em;
+  padding-left: 20px;
+  border-left: 10px solid black;
+  margin: 0px 110px;
 }
 
-.mapa-conteudo{
-	width: 940px;
-	margin: 0 auto;
-	display: block;
+.mapa-conteudo {
+  padding: 0px 50px;
+  width: auto;
+  margin: 0 auto;
+  display: block;
 }
 
-.habilidades{
-	padding: 1em 0;
+.habilidades {
+  padding: 1em 0;
 }
 
 .conteudo-habilidades {
-	width: 720px;
-	margin: auto;
-	padding: 0px 0px 0px 250px;
+  height: auto;
+  text-align: center;
 }
 
-.lista-habilidades{
-	width: 40%;
-	display: inline-block;
-	vertical-align: top;
-	padding-bottom: 20px;
-	text-align: left;
+.lista-habilidades {
+  width: auto;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 70px;
+  padding-bottom: 20px;
+  text-align: left;
 }
 
-.lista-contatos{
-	width: 100%;
-	display: block;
-	padding-bottom: 20px;
-	text-align: center;
+.lista-contatos {
+  width: 100%;
+  display: block;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
-.imagem-habilidades {
-	position: relative;
-	width: 26%;
-    opacity: 1;
-    transition: 400ms;
-    box-shadow: 10px 10px 10px #000000;
+.primeiro-icone,
+.icones {
+  width: auto;
+  height: 30px;
 }
 
-.primeiro-icone, .icones{
-	width: 30px;
-	height: 30px;
+.icones {
+  padding-left: 100px;
 }
 
-.icones{
-	padding-left: 100px;
+.listas-icones,
+.listas-icones-sites {
+  padding-left: 10px;
+  vertical-align: center;
 }
 
-.listas-icones, .listas-icones-sites{
-	padding-left: 10px;
-	vertical-align: 7px;
+ul a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-ul a{
-	color: black;
-	font-weight: bold;
-	text-decoration: none;
+ul a.listas-icones-sites:hover {
+  color: white;
+  text-decoration: underline;
 }
 
-ul a.listas-icones-sites:hover{
-	color: white;
-	text-decoration: underline;
+.itens-linguagens,
+.itens-idiomas,
+.itens-ide,
+.itens-geral {
+  padding: 3px 0px 4px 50px;
+  line-height: 1.5;
 }
 
-.itens-linguagens, .itens-idiomas, .itens-ide, .itens-geral{
-	padding: 3px 0px 4px 50px;
-	line-height: 1.5;
+.itens-linguagens:first-child,
+.itens-idiomas:first-child,
+.itens-ide:first-child,
+.itens-geral:first-child {
+  padding: 0px;
+  font-weight: bold;
 }
 
-.itens-linguagens:first-child, .itens-idiomas:first-child, .itens-ide:first-child, .itens-geral:first-child{
-	padding: 0px;
-	font-weight: bold;
-}
-
-.itens-linguagens:first-child:before{
-	content:"📓"
+.itens-linguagens:first-child:before {
+  content: "📓";
 }
 
 .itens-linguagens:before {
-	padding-right: 5px;
-	content: "🖥️";
+  padding-right: 5px;
+  content: "🖥️";
 }
 
-.itens-idiomas:first-child:before{
-	content:"🌐"
+.itens-idiomas:first-child:before {
+  content: "🌐";
 }
 
 .itens-idiomas:before {
-	padding-right: 5px;
-	content: "🗣️";
+  padding-right: 5px;
+  content: "🗣️";
 }
 
-.itens-ide:first-child:before{
-	content:"📝"
+.itens-ide:first-child:before {
+  content: "📝";
 }
 
 .itens-ide:before {
-	padding-right: 5px;
-	content: "💡";
+  padding-right: 5px;
+  content: "💡";
 }
 
-.itens-geral:first-child:before{
-	padding-right: 5px;
-	content:"🔗"
+.itens-geral:first-child:before {
+  padding-right: 5px;
+  content: "🔗";
 }
 
 footer {
-	text-align: center;
-	background: linear-gradient(rgb(71, 71, 71), black);
-	padding: 50px 0px;
+  text-align: center;
+  background: linear-gradient(rgb(143, 143, 143), rgb(58, 58, 58));
+  padding: 50px 0px;
+  display: block;
 }
 
-.texto-footer{
-	color: #FFFFFF;
-	font-size: 30px;
-	margin-top: 20px;
+.texto-footer {
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 20px;
 }
 
 .copyright {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin-top: 20px;
-}
-
-@media screen and (max-width: 480px){
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
-		width: auto;
-	}
-
-	h1{
-		text-align: center;
-	}
-
-	nav{
-		position: static;
-	}
-
-	.lista-beneficios, .imagem-beneficios {
-		width: 100%;
-	}
+  color: #ffffff;
+  font-size: 13px;
+  margin-top: 20px;
 }
