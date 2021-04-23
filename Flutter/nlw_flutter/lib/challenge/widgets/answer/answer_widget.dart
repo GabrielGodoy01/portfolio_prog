@@ -40,7 +40,7 @@ class AnswerWidget extends StatelessWidget {
         decoration: BoxDecoration(
             color: isSelected ? _selectedColorCardRight: AppColors.white,
             borderRadius: BorderRadius.circular(10),
-            border: Border.fromBorderSide(BorderSide(color: isSelected ? _selectedBorderCardRight: AppColors.border))),
+            border: Border.fromBorderSide(BorderSide(color: isSelected ? _selectedBorderRight: AppColors.border))),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -54,7 +54,7 @@ class AnswerWidget extends StatelessWidget {
               height: 24,
               width: 24,
               decoration: BoxDecoration(
-                color: isSelected ? _selectedColorCardRight: AppColors.white,
+                color: isSelected ? _selectedColorRight: AppColors.white,
                 borderRadius: BorderRadius.circular(500),
                 border: Border.fromBorderSide(
                   BorderSide(
