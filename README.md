@@ -1,2 +1,2 @@
 # portfolio_prog
-Portfólio de programação para projetos pessoais afim de manter os estudos em dia das linguagens já aprendidas
+Portfólio de programação para projetos com as linguagens e frameworks já aprendidos afim de manter e aprimorar os estudos.
