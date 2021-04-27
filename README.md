@@ -10,6 +10,6 @@ Lista de projetos:
 * **Projeto de blog pessoal HTML, CSS e Bootstrap:** https://bit.ly/2SaQS0j
 * **Cadastro de funcionários em Java para uma empresa fictícia:** https://bit.ly/3gMJnXA
 * **Gerenciamento de pedidos em Java de uma loja fictícia:** https://bit.ly/3npCSv8
-* **Criação de um exemplo de login para jogos em Java usando json** https://bit.ly/3sUK2sA
+* **Criação de um exemplo de login para jogos em Java usando json:** https://bit.ly/3sUK2sA
 
 ---
