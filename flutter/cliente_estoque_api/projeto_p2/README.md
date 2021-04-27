@@ -1,4 +1,4 @@
-# projeto_p2
+## Gerenciamento de estoque de cliente
 
 A new Flutter application.
 
