@@ -10,11 +10,11 @@ class QuizCardWidget extends StatelessWidget {
   final double percent;
   final VoidCallback onTap;
   const QuizCardWidget(
-      {Key key,
-      @required this.title,
-      @required this.completed,
-      @required this.percent,
-      @required this.onTap,
+      {Key? key,
+      required this.title,
+      required this.completed,
+      required this.percent,
+      required this.onTap,
       })
       : super(key: key);
 

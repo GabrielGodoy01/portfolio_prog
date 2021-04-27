@@ -5,7 +5,7 @@ import 'package:nlw_flutter/shared/models/question_model.dart';
 
 class QuizWidget extends StatelessWidget {
   final QuestionModel question;
-  const QuizWidget({Key key, @required this.question}) : super(key: key);
+  const QuizWidget({Key? key, required this.question}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

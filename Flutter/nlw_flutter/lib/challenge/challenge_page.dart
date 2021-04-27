@@ -7,7 +7,7 @@ import 'package:nlw_flutter/shared/models/question_model.dart';
 
 class ChallengePage extends StatefulWidget {
   final List<QuestionModel> questions;
-  ChallengePage({Key key, @required this.questions}) : super(key: key);
+  ChallengePage({Key? key, required this.questions}) : super(key: key);
 
   @override
   _ChallengePageState createState() => _ChallengePageState();

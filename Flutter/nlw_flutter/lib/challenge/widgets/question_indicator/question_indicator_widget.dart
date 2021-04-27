@@ -6,7 +6,7 @@ class QuestionIndicatorWidget extends StatelessWidget {
   final int currentPage;
   final int length;
   const QuestionIndicatorWidget(
-      {Key key, @required this.currentPage, @required this.length})
+      {Key? key, required this.currentPage, required this.length})
       : super(key: key);
 
   @override

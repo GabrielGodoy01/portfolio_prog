@@ -8,7 +8,7 @@ import 'package:nlw_flutter/home/widgets/level_button/level_button_widget.dart';
 import 'package:nlw_flutter/home/widgets/quiz_card/quiz_card_widget.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({Key key}) : super(key: key);
+  HomePage({Key? key}) : super(key: key);
 
   @override
   _HomePageState createState() => _HomePageState();
