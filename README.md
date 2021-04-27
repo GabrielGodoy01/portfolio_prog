@@ -5,11 +5,11 @@ Neste repositório você pode esperar encontrar projetos de diferentes linguagen
 ## Projetos:
 Lista de projetos:
 
-* **Aplicativo Flutter para estoque de um cliente:** https://github.com/GabrielGodoy01/portfolio_prog/tree/master/flutter/cliente_estoque_api
-* **Machine Learning para a Detecção de Câncer de Mama:** https://bit.ly/2JEU9xY
-* **Analisando os Dados do Suicídio no Brasil (Setembro Amarelo):** https://bit.ly/2mvuTSd
-* **Investigando o naufrágio do Titanic:** https://bit.ly/2Ubr5SH
-* **Análise dos Dados do Airbnb para o Rio de Janeiro:** https://bit.ly/2oBxmeK
-* **Avaliação de Risco de Crédito - Nubank:** https://bit.ly/2MTFIH3
+* **Aplicativo Flutter para estoque de um cliente:** https://bit.ly/2PtAWp1
+* **Aplicativo Flutter de estudo usado na Trilha NLW#05 da Rocketseat:** https://bit.ly/32TOpcU
+* **Projeto de blog pessoal HTML, CSS e Bootstrap:** https://bit.ly/2SaQS0j
+* **Cadastro de funcionários em Java para uma empresa fictícia:** https://bit.ly/3gMJnXA
+* **Gerenciamento de pedidos em Java de uma loja fictícia:** https://bit.ly/3npCSv8
+* **Criação de um exemplo de login para jogos em Java usando json** https://bit.ly/3sUK2sA
 
 ---
