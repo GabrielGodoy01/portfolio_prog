@@ -1,6 +1,6 @@
 # flutter_aplication1
 
-A new Flutter project.
+Primeiro aplicativo Flutter para fins de estudo.
 
 ## Getting Started
 
