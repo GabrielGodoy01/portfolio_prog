@@ -8,8 +8,8 @@ class UserModel {
   final int score;
 
   UserModel({
-    @required this.name, 
-    @required this.photoUrl, 
+    required this.name, 
+    required this.photoUrl, 
     this.score = 0
   });
 

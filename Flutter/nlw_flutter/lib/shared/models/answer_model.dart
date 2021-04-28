@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 
 class AnswerModel {
   final String title;
-  final bool isRight;
+  final bool? isRight;
 
-  AnswerModel({@required this.title, this.isRight = false});
+  AnswerModel({required this.title, this.isRight = false});
 
   Map<String, dynamic> toMap() {
     return {

@@ -4,7 +4,7 @@ import 'package:nlw_flutter/core/app_colors.dart';
 
 class LevelButtonWidget extends StatelessWidget {
   final String label;
-  LevelButtonWidget({Key key, @required this.label})
+  LevelButtonWidget({Key? key, required this.label})
       : assert(["Fácil", "Médio", "Difícil", "Perito"].contains(label)),
         super(key: key);
 

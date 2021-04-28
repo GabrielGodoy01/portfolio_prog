@@ -3,7 +3,7 @@ import 'package:nlw_flutter/core/app_colors.dart';
 import 'package:nlw_flutter/core/app_text_styles.dart';
 
 class ChartWidget extends StatelessWidget {
-  const ChartWidget({Key key}) : super(key: key);
+  const ChartWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

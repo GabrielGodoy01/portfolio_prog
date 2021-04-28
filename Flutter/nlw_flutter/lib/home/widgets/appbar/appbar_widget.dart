@@ -6,7 +6,7 @@ import 'package:nlw_flutter/shared/models/user_model.dart';
 
 class AppBarWidget extends PreferredSize {
   final UserModel user;
-  AppBarWidget({@required this.user})
+  AppBarWidget({required this.user})
       : super(
             preferredSize: Size.fromHeight(250),
             child: Container(

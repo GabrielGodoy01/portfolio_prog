@@ -32,11 +32,11 @@ class QuizModel {
   final Level level;
 
   QuizModel(
-      {@required this.title,
-      @required this.questions,
+      {required this.title,
+      required this.questions,
       this.questionAnswered = 0,
-      @required this.imagem,
-      @required this.level});
+      required this.imagem,
+      required this.level});
 
   Map<String, dynamic> toMap() {
     return {
