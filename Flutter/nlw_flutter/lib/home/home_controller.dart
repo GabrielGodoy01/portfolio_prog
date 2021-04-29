@@ -10,8 +10,8 @@ class HomeController {
   set state(HomeState state) => stateNotifier.value = state;
   HomeState get state => stateNotifier.value;
 
-  UserModel user;
-  List<QuizModel> quizzes;
+  UserModel? user;
+  List<QuizModel>? quizzes;
 
   final repository = HomeRepository();
 

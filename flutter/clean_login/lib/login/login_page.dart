@@ -1,8 +1,18 @@
+import 'package:clean_login/login/widgets/login_button_widget.dart';
+import 'package:clean_login/user/user_page.dart';
 import 'package:flutter/material.dart';
+import 'login_controller.dart';
 import 'widgets/text_field_custom_widget.dart';
 
-class LoginPage extends StatelessWidget {
+class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
+
+  @override
+  _LoginPageState createState() => _LoginPageState();
+}
+
+class _LoginPageState extends State<LoginPage> {
+  final controller = LoginController();
 
   @override
   Widget build(BuildContext context) {
@@ -27,12 +37,24 @@ class LoginPage extends StatelessWidget {
             iconData: IconData(58775, fontFamily: 'MaterialIcons'),
               ),
             SizedBox(
-                height: 16,
+                height: 8,
               ),
             TextFieldCustomWidget(
               labelText: 'Senha',
               iconData: IconData(60115, fontFamily: 'MaterialIcons'),
-            )
+            ),
+            SizedBox(
+              height: 24,
+            ),
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                 context,
+                 MaterialPageRoute(
+                    builder: (context) => UserPage(user: controller.user,)));
+              },
+              child: LoginButtonWidget()
+            ),
           ],
         ),
       ),
