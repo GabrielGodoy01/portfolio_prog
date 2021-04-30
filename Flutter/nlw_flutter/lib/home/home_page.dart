@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     if (controller.state == HomeState.success) {
       return Scaffold(
-          appBar: AppBarWidget(user: controller.user),
+          appBar: AppBarWidget(user: controller.user!),
           body: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Column(
@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
                     crossAxisSpacing: 16,
                     mainAxisSpacing: 16,
                     crossAxisCount: 2,
-                    children: controller.quizzes
+                    children: controller.quizzes!
                         .map((e) => QuizCardWidget(
                               title: e.title,
                               completed:
@@ -74,7 +74,9 @@ class _HomePageState extends State<HomePage> {
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) => ChallengePage(questions: e.questions,)));
+                                        builder: (context) => ChallengePage(
+                                              questions: e.questions,
+                                            )));
                               },
                             ))
                         .toList(),
