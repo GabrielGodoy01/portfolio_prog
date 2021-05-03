@@ -14,6 +14,8 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   final controller = LoginController();
+  final controllerEmail = TextEditingController();
+  final controllerSenha = TextEditingController();
 
   @override
   void initState() {
@@ -43,6 +45,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
               TextFieldCustomWidget(
+                controller: controllerEmail,
                 labelText: 'Email',
                 iconData: IconData(58775, fontFamily: 'MaterialIcons'),
               ),
@@ -50,6 +53,7 @@ class _LoginPageState extends State<LoginPage> {
                 height: 8,
               ),
               TextFieldCustomWidget(
+                controller: controllerSenha,
                 obscureText: true,
                 labelText: 'Senha',
                 iconData: IconData(60115, fontFamily: 'MaterialIcons'),
@@ -59,12 +63,14 @@ class _LoginPageState extends State<LoginPage> {
               ),
               GestureDetector(
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) =>
-                              UserPage(user: controller.user!)),
-                    );
+                    if (controller.user != null) {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) =>
+                                UserPage(user: controller.user!)),
+                      );
+                    }
                   },
                   child: LoginButtonWidget()),
             ],
@@ -79,6 +85,17 @@ class _LoginPageState extends State<LoginPage> {
           ),
         ),
       );
+    }
+  }
+
+  Future<bool> validaLogin(
+      LoginController controller,
+      TextEditingController controllerEmail,
+      TextEditingController controllerSenha) async {
+    if (controller.user!.email.toString() == controllerEmail.toString()) {
+      return true;
+    } else {
+      return false;
     }
   }
 }

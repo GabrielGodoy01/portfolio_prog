@@ -4,12 +4,14 @@ class TextFieldCustomWidget extends StatelessWidget {
   final String labelText;
   final IconData iconData;
   final bool obscureText;
+  final TextEditingController controller;
 
   const TextFieldCustomWidget(
       {Key? key,
       required this.labelText,
       required this.iconData,
-      this.obscureText = false})
+      this.obscureText = false,
+      required this.controller})
       : super(key: key);
 
   @override
