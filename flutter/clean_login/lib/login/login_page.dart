@@ -3,7 +3,7 @@ import 'package:clean_login/user/user_page.dart';
 import 'package:flutter/material.dart';
 import 'login_controller.dart';
 import 'widgets/text_field_custom_widget.dart';
-import 'login_state.dart';
+import 'login_load_state.dart';
 
 class LoginPage extends StatefulWidget {
   LoginPage({Key? key}) : super(key: key);
@@ -28,7 +28,7 @@ class _LoginPageState extends State<LoginPage> {
 
   @override
   Widget build(BuildContext context) {
-    if (controller.state == LoginState.success) {
+    if (controller.state == LoadState.success) {
       return Scaffold(
         body: Padding(
           padding: const EdgeInsets.all(8.0),
@@ -63,16 +63,35 @@ class _LoginPageState extends State<LoginPage> {
               ),
               GestureDetector(
                   onTap: () {
-                    if (controller.user != null) {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) =>
-                                UserPage(user: controller.user!)),
-                      );
+                    if (controller.validaLogin(
+                        controllerEmail, controllerSenha)) {
+                      if (controller.user != null) {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) =>
+                                  UserPage(user: controller.user!)),
+                        );
+                      }
                     }
+                    print(controllerEmail.text);
+                    print(controllerSenha.text);
                   },
                   child: LoginButtonWidget()),
+              Container(
+                child: FlatButton(
+                  onPressed: () {},
+                  child: Text(
+                    "Forgot password?",
+                    style: TextStyle(
+                      color: Colors.blue.shade300,
+                      fontWeight: FontWeight.bold,
+                      decoration: TextDecoration.underline,
+                      decorationThickness: 2,
+                    ),
+                  ),
+                ),
+              )
             ],
           ),
         ),
@@ -85,17 +104,6 @@ class _LoginPageState extends State<LoginPage> {
           ),
         ),
       );
-    }
-  }
-
-  Future<bool> validaLogin(
-      LoginController controller,
-      TextEditingController controllerEmail,
-      TextEditingController controllerSenha) async {
-    if (controller.user!.email.toString() == controllerEmail.toString()) {
-      return true;
-    } else {
-      return false;
     }
   }
 }
