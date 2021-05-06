@@ -3,7 +3,6 @@ Portfólio de programação para projetos com as linguagens e frameworks já apr
 Neste repositório você pode esperar encontrar projetos de diferentes linguagens no nível intermediário de código.
 
 ## Projetos:
-Lista de projetos:
 
 * **Aplicativo Flutter para estoque de um cliente:** https://bit.ly/2PtAWp1
 * **Aplicativo Flutter de estudo usado na Trilha NLW#05 da Rocketseat:** https://bit.ly/32TOpcU
