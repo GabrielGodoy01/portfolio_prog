@@ -84,7 +84,7 @@ public class Sistema{
                         for(int i = 0; i < funcionarios.size(); i++) {
                             funcionarios.get(i).setHorarioSistema(HorarioSistema.EXTRA);
                         }
-                        System.out.println("A jornada esta setada em NORMAL");
+                        System.out.println("A jornada esta setada em EXTRA");
                     }
                     break;
 

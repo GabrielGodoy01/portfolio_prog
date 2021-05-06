@@ -10,5 +10,5 @@ import java.util.ArrayList;
  */
 
 public interface PostarMensagem {
-    public void mensagem(ArrayList<Funcionarios> funcionarios);
+    void mensagem(ArrayList<Funcionarios> funcionarios);
 }
