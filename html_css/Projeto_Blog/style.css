@@ -1,5 +1,11 @@
 html {
+  position: relative;
   min-height: 100%;
+}
+
+html,
+body {
+  overflow-x: hidden;
 }
 
 main {
@@ -20,14 +26,12 @@ header {
 }
 
 .imagem-header {
-  width: 300px;
-  opacity: 1;
-  box-shadow: 10px 10px 10px #000000;
+  width: 35%;
+  border: 2px solid black;
 }
 
 .imagem-header-contatos {
-  width: 275px;
-  height: 250px;
+  width: 35%;
 }
 
 nav {
@@ -118,10 +122,6 @@ p > a:hover {
   display: block;
 }
 
-.habilidades {
-  padding: 1em 0;
-}
-
 .conteudo-habilidades {
   text-align: justify;
   text-justify: inter-word;
@@ -136,6 +136,10 @@ p > a:hover {
   /* padding-right: 70px; */
   padding-bottom: 20px;
   text-align: left;
+}
+
+.lista-contato-conteudo {
+  padding-top: 20px;
 }
 
 .lista-contatos {
@@ -232,4 +236,97 @@ footer {
   font-size: 13px;
   margin-top: 20px;
   padding-right: 33px;
+  margin: 0px 5px;
+  text-align: center;
+}
+
+@media screen and (max-width: 637px) {
+  .caixa,
+  .principal,
+  .mapa-conteudo,
+  .video {
+    width: auto;
+  }
+
+  .titulo-principal {
+    font-size: 30px;
+    margin: 5px;
+  }
+
+  .principal p {
+    border-left: 0;
+    margin: 20px;
+    padding-left: 0px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .conteudo-paes {
+    text-align: left;
+    margin-right: 30px;
+    padding-bottom: 10px;
+  }
+
+  .lista-paes {
+    padding-left: 40px;
+  }
+
+  .imagem-certificado {
+    width: 50%;
+    border: 2px solid black;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .lista-contatos {
+    padding-top: 22px;
+    text-align: center;
+    padding-left: 40px;
+  }
+
+  .conteudo-habilidades {
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    padding-left: 100px;
+  }
+
+  .lista-contato-conteudo {
+    text-align: center;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+
+  .icones {
+    padding-left: 20px;
+  }
+
+  .lista-habilidades {
+    display: block;
+    padding-right: 0px;
+  }
+
+  .mapa-conteudo {
+    padding-top: 22px;
+  }
+
+  .copyright {
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .lista-contatos {
+    padding-right: 48px;
+    text-align: center;
+  }
+  .lista-contato-conteudo {
+    text-align: left;
+  }
 }
