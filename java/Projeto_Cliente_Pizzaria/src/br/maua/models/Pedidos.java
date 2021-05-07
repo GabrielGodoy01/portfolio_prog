@@ -3,7 +3,6 @@ package br.maua.models;
 import br.maua.enums.Estado;
 import br.maua.enums.FormaPagamento;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 /**
@@ -96,42 +95,5 @@ public class Pedidos {
                 "Valor: " + getValor() + "  │  " +
                 "Forma de Pagamento: " + getFormaPagamento() + "  │  "+
                 "Estado: " + getEstado() + "\n";
-    }
-}
-
-public class Numeros {
-    private int numero;
-
-    public Numeros(int numero) {
-        this.numero = numero;
-    }
-
-    public int getNumero() {
-        return numero;
-    }
-
-}
-
-public class Main {
-
-    public static void main(String[] args) {
-        ArrayList<Numeros> numeros = new ArrayList<>();
-        *adicionar_os_numeros_desejados*;
-        checarNumeros(numeros);
-    }
-}
-
-private static void checarNumeros (ArrayList<Numeros> numero) {
-    for (Numeros item : numero) {
-        if(item.getNumero = 2){
-            System.out.println("Touch");
-        }
-        if(item.getNumero = 3){
-            System.out.println("Health");
-        }
-        if(item.getNumero % 2 == 0 && item.getNumero % 3 ==0){
-            System.out.println("Touch Health");
-        }
-        System.out.println(item);
     }
 }
