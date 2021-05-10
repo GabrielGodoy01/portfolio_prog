@@ -16,32 +16,38 @@ class AppBarWidget extends PreferredSize {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text.rich(TextSpan(
-                          text: "Olá, ",
-                          style: TextStyle(fontSize: 20),
-                          children: [
-                            TextSpan(
-                              text: "Darth broxinha",
-                              style: TextStyle(fontWeight: FontWeight.bold),
-                            )
-                          ])),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text.rich(TextSpan(
+                              text: "Olá, ",
+                              style: TextStyle(fontSize: 20),
+                              children: [
+                                TextSpan(
+                                  text: "Darth broxinha",
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                )
+                              ])),
+                          Container(
+                              width: 58,
+                              height: 58,
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(100),
+                                  image: DecorationImage(
+                                    image: NetworkImage(
+                                        "https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg"),
+                                    fit: BoxFit.cover,
+                                  ))),
+                        ],
+                      ),
                       Container(
+                        width: 250,
                         alignment: Alignment.bottomLeft,
                         child: Text(
                             "Seja bem-vindo a nossa Cafeteria, aproveite a estadia!"),
                       ),
                     ],
                   ),
-                  Container(
-                      width: 58,
-                      height: 58,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(100),
-                          image: DecorationImage(
-                            image: NetworkImage(
-                                "https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg"),
-                            fit: BoxFit.cover,
-                          ))),
                 ],
               ),
             ),
