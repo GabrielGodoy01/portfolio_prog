@@ -4,11 +4,11 @@ Neste repositório você pode esperar encontrar projetos de diferentes linguagen
 
 ## Projetos:
 
-* **Aplicativo Flutter para estoque de um cliente:** https://bit.ly/2PtAWp1
-* **Aplicativo Flutter de estudo usado na Trilha NLW#05 da Rocketseat:** https://bit.ly/32TOpcU
-* **Projeto de blog pessoal HTML, CSS e Bootstrap:** https://bit.ly/2SaQS0j
-* **Cadastro de funcionários em Java para uma empresa fictícia:** https://bit.ly/3gMJnXA
-* **Gerenciamento de pedidos em Java de uma loja fictícia:** https://bit.ly/3npCSv8
-* **Criação de um exemplo de login para jogos em Java usando json:** https://bit.ly/3sUK2sA
+* **Aplicativo Flutter para estoque de um cliente:** https://bit.ly/3fbekT3
+* **Aplicativo Flutter de estudo usado na Trilha NLW#05 da Rocketseat:** https://bit.ly/3blUMdy
+* **Projeto de blog pessoal HTML, CSS e Bootstrap:** https://bit.ly/3fhfvQT
+* **Cadastro de funcionários em Java para uma empresa fictícia:** https://bit.ly/3bmd9ik
+* **Gerenciamento de pedidos em Java de uma loja fictícia:** https://bit.ly/3boS7jk
+* **Criação de um exemplo de login para jogos em Java usando json:** https://bit.ly/3hpqUka
 
 ---
