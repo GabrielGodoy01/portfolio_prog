@@ -4,6 +4,7 @@ Neste repositório você pode esperar encontrar projetos de diferentes linguagen
 
 ## Projetos:
 
+* **Aplicativo Flutter/Dart para compras de clientes de uma loja fictícia:** https://bit.ly/2SmZUr5
 * **Aplicativo Flutter para estoque de um cliente:** https://bit.ly/3fbekT3
 * **Aplicativo Flutter de estudo usado na Trilha NLW#05 da Rocketseat:** https://bit.ly/3blUMdy
 * **Projeto de blog pessoal HTML, CSS e Bootstrap:** https://bit.ly/3fhfvQT
